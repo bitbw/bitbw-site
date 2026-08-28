@@ -77,45 +77,45 @@ export const copy: Record<Locale, Copy> = {
     viewResume: "View Resume",
     localeEn: "EN",
     localeZh: "中文",
-    roleBadge: "Bowen Zhang · Senior Frontend Engineer",
-    heroTitleLine1: "Building the Future",
-    heroTitleLine2Prefix: "with",
-    heroAccent: "Code&AI",
+    roleBadge: "Bowen Zhang · AI Application & Forward-Deployed Engineer",
+    heroTitleLine1: "Turning Complex Workflows",
+    heroTitleLine2Prefix: "into",
+    heroAccent: "Working Systems",
     homeIntro:
-      "I'm Bowen, a frontend engineer with {years}+ years building production apps in React, Vue, and TypeScript. I specialize in data visualization, autonomous driving platforms, and exploring AI-powered tools. Always learning, always shipping.",
+      "I'm Bowen, a full-stack engineer with {years}+ years of experience delivering AI applications and complex system integrations. I turn ambiguous requirements into working workflows—from discovery and prototyping to production validation.",
     viewGithub: "View GitHub",
     viewGithubAria: "Visit Bowen's GitHub profile",
     aboutBadge: "About Bowen",
-    aboutTitle: "Developer, technologist, relentless learner.",
+    aboutTitle: "AI applications that reach the real workflow.",
     aboutLead:
-      "I craft human-centered interfaces and data-rich dashboards across automotive, mapping, and enterprise products. From CAN bus visualizers to large-scale management platforms, I bridge product vision with performant frontends that teams can scale and maintain.",
+      "I work across AI Agents, model gateways, enterprise integrations, and in-vehicle systems. My focus is not only building a prototype, but connecting it to real data, permissions, devices, and users so it can be evaluated, deployed, and improved in production.",
     cardCoreTitle: "Core Focus",
     cardCoreBody:
-      "TypeScript-first development, design systems, data visualization, and AI-assisted workflows for teams shipping ambitious software.",
+      "AI application delivery, Agent workflows, system integration, and production reliability—from the first useful prototype to a reusable platform capability.",
     cardRecentTitle: "Recent Highlights",
-    cardRecent1: "• Led Li Auto's smart chassis visualization platform",
+    cardRecent1: "• Built an AI Agent workbench for smart-chassis engineering workflows",
     cardRecent2:
-      "• Governed data Q&A—trusted, conversational answers across complex operational datasets",
+      "• Implemented model fallback, retries, and circuit breakers for reliable AI delivery",
     cardRecent3:
-      "• Cockpit-grade in-vehicle delivery—real-time context into calm, production-ready experiences",
+      "• Delivered Feishu long-connection chat, chart cards, and Web/Android IVI integrations",
     cardDrivesTitle: "What Drives Me",
     cardDrivesBody:
-      "Curiosity for emerging tech, especially AI. I love transforming complex requirements into experiences that feel effortless.",
+      "I enjoy working at the boundary between product intent and engineering reality—making complex systems useful, observable, and easier to operate.",
     cardToolboxTitle: "Toolbox",
     cardToolboxBody:
-      "React, Vue, Next.js, Vite, ECharts, Three.js, Node.js, Electron, Tauri, Capacitor, Ant Design, Quasar, Webpack, Vercel, Python, Android.",
+      "Next.js, Vercel AI SDK, TypeScript, React, Vue, Node.js, RAG, BM25, Feishu/Lark SDK, WebSocket, MySQL, CarProperty, BLE, CAN, ECharts, Three.js, VChart.",
     contactBadge: "Contact",
-    contactTitle: "Let's build something meaningful.",
+    contactTitle: "Let's put complex ideas into production.",
     contactLead:
-      "Whether you're exploring partnerships, need help shipping a complex interface, or want to talk about AI-augmented workflows, my inbox is open.",
+      "Whether you're exploring AI application delivery, need help integrating a complex workflow, or want to discuss a Forward-Deployed Engineering challenge, my inbox is open.",
     emailMe: "Email Me",
     linkGithub: "GitHub",
     linkBlog: "Blog",
     resumeUrl: RESUME_EN,
     projectsBadge: "My Projects",
-    projectsTitle: "Things I've built.",
+    projectsTitle: "Systems delivered to real workflows.",
     projectsLead:
-      "A selection of personal projects and side experiments — from AI tools to developer utilities and platform UIs.",
+      "A selection of AI applications, vehicle platforms, visualization tools, and integration experiments built around real users, data, and devices.",
     projectsVisit: "Visit Project",
     projectsViewAll: "View all on GitHub",
     proj1Name: "English Reading App",
@@ -123,7 +123,7 @@ export const copy: Record<Locale, Copy> = {
       "An English reading practice tool designed to improve reading comprehension and vocabulary through curated articles.",
     proj2Name: "AI Chatbox",
     proj2Desc:
-      "A Next.js-powered AI chat application with streaming responses, multi-turn conversations, and a clean minimal UI.",
+      "An AI application exploring streaming conversations, multi-turn context, model integration, and a minimal path from prompt to usable workflow.",
     proj3Name: "Editable Table Demo",
     proj3Desc:
       "An interactive Ant Design Pro editable table component showcasing inline editing, validation, and row operations.",
@@ -132,10 +132,10 @@ export const copy: Record<Locale, Copy> = {
       "My personal tech blog covering frontend development, tooling, engineering insights, and side-project write-ups.",
     proj5Name: "Smart Chassis Domain Control UI",
     proj5Desc:
-      "A vehicle domain control UI application built for the Fuxi smart driving platform, focusing on real-time data display.",
+      "A vehicle domain-control UI for the Fuxi smart-driving platform, integrating real-time signals, subsystem state, and interactive engineering visuals.",
     proj6Name: "Smart Chassis Preview Info",
     proj6Desc:
-      "A multi-platform app (Web + Android via Capacitor) that interfaces with vehicle CarProperty signals to visualize real-time preview road features and vertical acceleration chassis data in 3D.",
+      "A Web + Android IVI application integrating CarProperty signals to visualize preview road features, vertical acceleration, and chassis data in interactive 3D.",
   },
   zh: {
     ariaHome: "首页",
@@ -147,43 +147,43 @@ export const copy: Record<Locale, Copy> = {
     viewResume: "查看简历",
     localeEn: "EN",
     localeZh: "中文",
-    roleBadge: "张博文 · 资深前端工程师",
-    heroTitleLine1: "共筑未来",
-    heroTitleLine2Prefix: "携手",
-    heroAccent: "Code&AI",
+    roleBadge: "张博文 · AI 应用与 Forward-Deployed Engineer",
+    heroTitleLine1: "把复杂工作流",
+    heroTitleLine2Prefix: "变成",
+    heroAccent: "可运行的系统",
     homeIntro:
-      "我是博文，一名拥有 {years}+ 年前端经验的工程师，长期使用 React、Vue 与 TypeScript 交付线上产品。我擅长数据可视化、自动驾驶相关平台，以及探索 AI 赋能的研发流程。保持学习，持续交付。",
+      "我是博文，一名拥有 {years}+ 年经验的全栈工程师，专注于 AI 应用交付和复杂系统集成。我擅长把不清晰的需求转化为可运行的工作流，从需求澄清、快速原型到生产验证形成完整闭环。",
     viewGithub: "查看 GitHub",
     viewGithubAria: "访问博文的 GitHub 主页",
     aboutBadge: "关于博文",
-    aboutTitle: "开发者、技术人、终身学习者。",
+    aboutTitle: "让 AI 应用真正进入业务现场。",
     aboutLead:
-      "我专注于以人为本的界面与数据密集型仪表盘，覆盖汽车、地图与企业级产品。从 CAN 总线可视化到大型管理平台，我在产品愿景与可扩展、可维护的高性能前端之间搭建桥梁。",
+      "我长期工作在 AI Agent、模型网关、企业系统集成和车载应用的交汇处。关注的不只是做出原型，而是让它接入真实数据、权限、设备和用户，经过评估、部署和迭代后成为可持续使用的系统。",
     cardCoreTitle: "核心方向",
     cardCoreBody:
-      "以 TypeScript 为先的工程实践、设计系统、数据可视化，以及帮助团队交付复杂软件的 AI 辅助工作流。",
+      "AI 应用交付、Agent 工作流、复杂系统集成和生产可靠性，从第一个可用原型到可复用的平台能力。",
     cardRecentTitle: "近期亮点",
-    cardRecent1: "• 负责理想汽车智能底盘可视化平台",
-    cardRecent2: "• 合规框架下的智能问数，将复杂数据沉淀为可信、可用的业务洞察",
-    cardRecent3: "• 智能座舱与车端交付：实时车况到稳定、可量产的座舱体验",
+    cardRecent1: "• 为智能底盘工程工作流建设 AI Agent 工作台",
+    cardRecent2: "• 实现模型自动降级、重试和熔断，提升 AI 交付稳定性",
+    cardRecent3: "• 交付飞书长连接聊天、图表卡片与 Web/Android 车机集成",
     cardDrivesTitle: "动力来源",
     cardDrivesBody:
-      "对新兴技术（尤其是 AI）的好奇。我喜欢把复杂需求变成用起来毫不费力的体验。",
+      "我喜欢站在产品意图与工程现实的交界处，把复杂系统变得真正可用、可观测、可持续运营。",
     cardToolboxTitle: "技术栈",
     cardToolboxBody:
-      "React、Vue、Next.js、Vite、ECharts、Three.js、Node.js、Electron、Tauri、Capacitor、Ant Design、Quasar、Webpack、Vercel、Python、Android。",
+      "Next.js、Vercel AI SDK、TypeScript、React、Vue、Node.js、RAG、BM25、飞书/Lark SDK、WebSocket、MySQL、CarProperty、BLE、CAN、ECharts、Three.js、VChart。",
     contactBadge: "联系",
-    contactTitle: "一起做点有意义的事。",
+    contactTitle: "一起把复杂想法落到生产环境。",
     contactLead:
-      "无论你想探讨合作、需要把复杂界面落地上线，还是聊聊 AI 增强的研发流程，都欢迎来信。",
+      "无论你想探讨 AI 应用交付、复杂业务工作流集成，还是 Forward-Deployed Engineering 方向的合作，都欢迎来信。",
     emailMe: "发邮件",
     linkGithub: "GitHub",
     linkBlog: "博客",
     resumeUrl: RESUME_ZH,
     projectsBadge: "我的项目",
-    projectsTitle: "我构建过的作品。",
+    projectsTitle: "真正接入工作流的系统。",
     projectsLead:
-      "个人项目与技术实验精选——涵盖 AI 工具、开发者工具和平台 UI。",
+      "AI 应用、车载平台、数据可视化和系统集成实践精选，围绕真实用户、数据与设备展开。",
     projectsVisit: "访问项目",
     projectsViewAll: "在 GitHub 查看全部",
     proj1Name: "英语阅读应用",
@@ -191,7 +191,7 @@ export const copy: Record<Locale, Copy> = {
       "一款英语阅读练习工具，通过精选文章帮助提升阅读理解能力与词汇量。",
     proj2Name: "AI 聊天应用",
     proj2Desc:
-      "基于 Next.js 的 AI 对话应用，支持流式响应、多轮对话与简洁 UI。",
+      "探索流式对话、多轮上下文和模型接入的 AI 应用，关注从 Prompt 到可用工作流的最短路径。",
     proj3Name: "可编辑表格 Demo",
     proj3Desc:
       "基于 Ant Design Pro 的交互式可编辑表格示例，展示行内编辑、数据校验与行操作。",
@@ -200,10 +200,10 @@ export const copy: Record<Locale, Copy> = {
       "分享前端开发、工程实践与技术洞察的个人博客，包含各类项目复盘。",
     proj5Name: "智能底盘域控 UI",
     proj5Desc:
-      "用于伏羲智能驾驶平台的车端域控 UI 应用，专注于实时数据展示与交互。",
+      "用于伏羲智能驾驶平台的车端域控 UI，集成实时信号、子系统状态和工程数据可视化。",
     proj6Name: "智能底盘预瞄信息",
     proj6Desc:
-      "多平台应用（Web + Android，基于 Capacitor），对接车辆 CarProperty 信号，实时展示预瞄路面特征与垂向加速度等底盘数据，支持 Three.js 3D 可视化。",
+      "基于 Capacitor 的 Web + Android 车机应用，对接 CarProperty 信号，交互式展示预瞄路面特征、垂向加速度和底盘数据。",
   },
 };
 
