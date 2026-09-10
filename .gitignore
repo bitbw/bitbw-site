@@ -66,3 +66,6 @@ next-env.d.ts
 # IDE
 .claude/
 .cursor/
+
+# Codex Playwright MCP output
+.playwright-mcp/
