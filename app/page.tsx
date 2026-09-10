@@ -15,45 +15,45 @@ const GITHUB_REPOS = "https://github.com/bitbw?tab=repositories";
 
 const PROJECTS = [
   {
-    url: "https://english-read.bitbw.top/",
+    url: "https://chatbox.bitbw.top/",
     nameKey: "proj1Name",
     descKey: "proj1Desc",
-    tech: "React · TypeScript",
+    tech: "Next.js · Vercel AI SDK · TypeScript",
   },
   {
     url: "https://capacitor-hu-previewinfo.bitbw.top/",
-    nameKey: "proj6Name",
-    descKey: "proj6Desc",
+    nameKey: "proj2Name",
+    descKey: "proj2Desc",
     tech: "Vue 3 · Three.js · ECharts · Capacitor",
   },
   {
-    url: "https://chatbox.bitbw.top/",
-    nameKey: "proj2Name",
-    descKey: "proj2Desc",
-    tech: "Next.js · AI · TypeScript",
+    url: "https://fuxi-domain-control-ui-app.bitbw.top/",
+    nameKey: "proj3Name",
+    descKey: "proj3Desc",
+    tech: "Vue · TypeScript · BLE · Capacitor",
   },
   {
-    url: "https://blog.bitbw.top/",
+    url: "https://english-read.bitbw.top/",
     nameKey: "proj4Name",
     descKey: "proj4Desc",
-    tech: "Hexo · Markdown",
+    tech: "React · TypeScript",
   },
   {
     url: "https://antd-pro-editable-table.vercel.app/",
-    nameKey: "proj3Name",
-    descKey: "proj3Desc",
+    nameKey: "proj5Name",
+    descKey: "proj5Desc",
     tech: "Ant Design Pro · React",
   },
   {
-    url: "https://fuxi-domain-control-ui-app.bitbw.top/",
-    nameKey: "proj5Name",
-    descKey: "proj5Desc",
-    tech: "React · Vite · TypeScript",
+    url: "https://blog.bitbw.top/",
+    nameKey: "proj6Name",
+    descKey: "proj6Desc",
+    tech: "Hexo · Markdown",
   },
 ] as const;
 
-/** Career start: October 2017 (used only for year count, not shown in copy). */
-const CAREER_START = new Date(2017, 9, 1);
+/** Career start: July 2016 (used only for year count, not shown in copy). */
+const CAREER_START = new Date(2016, 6, 1);
 
 function completedFullYearsSince(from: Date, asOf = new Date()): number {
   let years = asOf.getFullYear() - from.getFullYear();
@@ -79,10 +79,6 @@ export default function HomePage() {
   const openResume = useCallback(() => {
     window.open(t.resumeUrl, "_blank");
   }, [t.resumeUrl]);
-
-  const openGithubProfile = useCallback(() => {
-    window.open(GITHUB_PROFILE, "_blank");
-  }, []);
 
   const navButtonClass = (section: "home" | "about" | "contact" | "projects") => {
     return `cursor-pointer transition-colors text-sm lg:text-base ${
@@ -175,9 +171,9 @@ export default function HomePage() {
           <LocaleToggle />
           <ShimmerButton
             className="bg-orange-500 hover:bg-orange-600 text-white px-4 lg:px-6 py-2 rounded-xl text-sm lg:text-base font-medium shadow-lg"
-            onClick={openGithubProfile}
+            onClick={openResume}
           >
-            {t.viewGithub}
+            {t.viewResume}
           </ShimmerButton>
         </div>
       </header>
@@ -265,12 +261,12 @@ export default function HomePage() {
                 className="cursor-pointer group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base md:text-xs lg:text-lg font-semibold flex items-center gap-2 backdrop-blur-sm border border-orange-400/30 shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105 hover:-translate-y-0.5"
               >
                 <a
-                  href={GITHUB_PROFILE}
+                  href={t.resumeUrl}
                   target="_blank"
                   rel="noreferrer"
-                  aria-label={t.viewGithubAria}
+                  aria-label={t.viewResume}
                 >
-                  {t.viewGithub}
+                  {t.viewResume}
                   <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-rotate-12 transition-transform duration-300" />
                   <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-white/0 via-white/10 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </a>
